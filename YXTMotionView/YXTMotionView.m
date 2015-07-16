@@ -271,7 +271,7 @@ static const CGFloat CRMotionViewRotationFactor = 4.0f;
                                         }
                                     }];
     } else {
-        NSLog(@"There is not available gyro.");
+//        NSLog(@"There is not available gyro.");
     }
 }
 

@@ -25,8 +25,7 @@
   [motionView setZoomEnabled:NO];
   [motionView setScrollDragEnabled:NO];
   [motionView setScrollBounceEnabled:NO];
-  UIImageView *imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"Night Sky"]];
-  [motionView setContentView:imageView];
+  [motionView setImage:[UIImage imageNamed:@"Night Sky"]];
   [self.view addSubview:motionView];
   [self.view sendSubviewToBack:motionView];
 }
