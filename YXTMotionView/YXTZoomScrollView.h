@@ -1,9 +1,9 @@
 //
-//  CRZoomScrollView.h
-//  CRMotionViewDemo
+//  YXTZoomScrollView.h
+//  YXTMotionViewDemo
 //
-//  Created by Tanguy Aladenise on 2014-11-06.
-//  Copyright (c) 2014 Tanguy Aladenise. All rights reserved.
+//  Created by Hanton on 7/16/15.
+//  Copyright (c) 2015 Hanton. All rights reserved.
 //
 
 

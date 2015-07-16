@@ -14,6 +14,9 @@
 		40DE7FE41B57A74900C29476 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40DE7FE31B57A74900C29476 /* Images.xcassets */; };
 		40DE7FE71B57A74900C29476 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40DE7FE51B57A74900C29476 /* LaunchScreen.xib */; };
 		40DE7FF31B57A74900C29476 /* YXTMotionViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40DE7FF21B57A74900C29476 /* YXTMotionViewDemoTests.m */; };
+		40DE800D1B57A7A600C29476 /* UIScrollView+YXTScrollIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 40DE80081B57A7A600C29476 /* UIScrollView+YXTScrollIndicator.m */; };
+		40DE800E1B57A7A600C29476 /* YXTMotionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 40DE800A1B57A7A600C29476 /* YXTMotionView.m */; };
+		40DE800F1B57A7A600C29476 /* YXTZoomScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 40DE800C1B57A7A600C29476 /* YXTZoomScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,12 @@
 		40DE7FEC1B57A74900C29476 /* YXTMotionViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YXTMotionViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		40DE7FF11B57A74900C29476 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40DE7FF21B57A74900C29476 /* YXTMotionViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXTMotionViewDemoTests.m; sourceTree = "<group>"; };
+		40DE80071B57A7A600C29476 /* UIScrollView+YXTScrollIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+YXTScrollIndicator.h"; sourceTree = "<group>"; };
+		40DE80081B57A7A600C29476 /* UIScrollView+YXTScrollIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+YXTScrollIndicator.m"; sourceTree = "<group>"; };
+		40DE80091B57A7A600C29476 /* YXTMotionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXTMotionView.h; sourceTree = "<group>"; };
+		40DE800A1B57A7A600C29476 /* YXTMotionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXTMotionView.m; sourceTree = "<group>"; };
+		40DE800B1B57A7A600C29476 /* YXTZoomScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXTZoomScrollView.h; sourceTree = "<group>"; };
+		40DE800C1B57A7A600C29476 /* YXTZoomScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXTZoomScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +72,7 @@
 		40DE7FCA1B57A74900C29476 = {
 			isa = PBXGroup;
 			children = (
+				40DE80061B57A7A600C29476 /* YXTMotionView */,
 				40DE7FD51B57A74900C29476 /* YXTMotionViewDemo */,
 				40DE7FEF1B57A74900C29476 /* YXTMotionViewDemoTests */,
 				40DE7FD41B57A74900C29476 /* Products */,
@@ -117,6 +127,20 @@
 				40DE7FF11B57A74900C29476 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		40DE80061B57A7A600C29476 /* YXTMotionView */ = {
+			isa = PBXGroup;
+			children = (
+				40DE80071B57A7A600C29476 /* UIScrollView+YXTScrollIndicator.h */,
+				40DE80081B57A7A600C29476 /* UIScrollView+YXTScrollIndicator.m */,
+				40DE80091B57A7A600C29476 /* YXTMotionView.h */,
+				40DE800A1B57A7A600C29476 /* YXTMotionView.m */,
+				40DE800B1B57A7A600C29476 /* YXTZoomScrollView.h */,
+				40DE800C1B57A7A600C29476 /* YXTZoomScrollView.m */,
+			);
+			name = YXTMotionView;
+			path = ../YXTMotionView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,8 +243,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40DE800E1B57A7A600C29476 /* YXTMotionView.m in Sources */,
+				40DE800D1B57A7A600C29476 /* UIScrollView+YXTScrollIndicator.m in Sources */,
 				40DE7FDF1B57A74900C29476 /* ViewController.m in Sources */,
 				40DE7FDC1B57A74900C29476 /* AppDelegate.m in Sources */,
+				40DE800F1B57A7A600C29476 /* YXTZoomScrollView.m in Sources */,
 				40DE7FD91B57A74900C29476 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,6 +445,7 @@
 				40DE7FF81B57A74900C29476 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		40DE7FF91B57A74900C29476 /* Build configuration list for PBXNativeTarget "YXTMotionViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +454,7 @@
 				40DE7FFB1B57A74900C29476 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
