@@ -31,10 +31,10 @@ YXTMotionView *motionView = [[CRMotionView alloc] initWithFrame:self.view.bounds
 [self.view addSubview:motionView];
 ```
 
-Example
+Screenshot
 ----------
 
-![CRMotionView-demo1](http://chroman.me/wp-content/uploads/2014/02/example1.gif)
+![screenshot](https://github.com/hanton/YXTMotionView/blob/master/screenshot/YXTMotionView.gif)
 
 Requirements
 ----------
